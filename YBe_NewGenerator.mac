@@ -1,0 +1,10 @@
+/run/initialize
+/run/verbose 1
+/random/setSeeds 238009 238117
+
+/generator/setMode neutrons
+
+/analysis/setFileName YBe_1inMT_10M_NewGenerator
+/tracking/verbose 0
+/run/printProgress 500000
+/run/beamOn 10000000
